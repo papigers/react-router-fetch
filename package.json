@@ -1,6 +1,6 @@
 {
   "name": "react-router-preload-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calls preload and fetch on matched route components and returns a promise",
   "keywords": [
     "react",
