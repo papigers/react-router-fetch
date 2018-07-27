@@ -32,7 +32,7 @@ const HomeLoadableFetch = Loadable({
   loader: () => new Promise((resolve, reject) => {
     setTimeout(resolve, 1000, Home)
   }),
-  loading: () => null,
+  loading: () => null
 })
 HomeLoadableFetch.fetch = HomeFetch.fetch
 
@@ -40,7 +40,7 @@ const HomeLoadable = Loadable({
   loader: () => new Promise((resolve, reject) => {
     setTimeout(resolve, 1000, Home)
   }),
-  loading: () => null,
+  loading: () => null
 })
 
 const HomeLoadableMap = Loadable.Map({
@@ -54,14 +54,14 @@ const HomeLoadableMap = Loadable.Map({
   },
   loading: () => null,
   render: (loaded, props) => {
-    let Home = loaded.HomeFetch;
-    let Home2 = loaded.Home;
+    let Home = loaded.HomeFetch
+    let Home2 = loaded.Home
     return (
       <div>
         <Home {...props} />
         <Home2 {...props} />
       </div>
-    );
+    )
   }
 })
 
@@ -137,7 +137,6 @@ const routesNoMatch = [
     component: App
   }
 ]
-
 
 describe('react-router-preload-fetch', function () {
   it('can be imported', function () {
