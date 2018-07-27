@@ -2,11 +2,9 @@ react-router-preload-fetch
 =====================
 module to loop through matched react router handler to call fetch and preload methods for specifying data needs at the handler level with support to [react-loadable](https://github.com/jamiebuilds/react-loadable).
 
-<!--
-[![Dependency Status](https://david-dm.org/kellyrmilligan/react-router-fetch.svg)](https://david-dm.org/kellyrmilligan/react-router-fetch)
-[![Build Status](https://travis-ci.org/kellyrmilligan/react-router-fetch.svg?branch=master)](https://travis-ci.org/kellyrmilligan/react-router-fetch)
-[![Coverage Status](https://coveralls.io/repos/github/kellyrmilligan/react-router-fetch/badge.svg?branch=master)](https://coveralls.io/github/kellyrmilligan/react-router-fetch?branch=master)
--->
+[![Dependency Status](https://david-dm.org/papigers/react-router-preload-fetch.svg)](https://david-dm.org/papigers/react-router-preload-fetch)
+[![Build Status](https://travis-ci.org/papigers/react-router-preload-fetch.svg?branch=master)](https://travis-ci.org/papigers/react-router-preload-fetch)
+[![Coverage Status](https://coveralls.io/repos/github/papigers/react-router-preload-fetch/badge.svg?branch=master)](https://coveralls.io/github/papigers/react-router-preload-fetch?branch=master)
 
 ## react-router-fetch
 This is a fork of [react-router-fetch](https://github.com/kellyrmilligan/react-router-fetch) that extends support for react-loadable to prevent navigation until loading is complete.
