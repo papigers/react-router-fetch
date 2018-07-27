@@ -1,12 +1,18 @@
 {
-  "name": "react-router-fetch",
-  "version": "2.1.0",
-  "description": "Calls fetch on matched route components and returns a promise",
-  "keywords": "react, react-router, fetch",
+  "name": "react-router-preload-fetch",
+  "version": "1.0.0",
+  "description": "Calls preload and fetch on matched route components and returns a promise",
+  "keywords": [
+    "react",
+    "react-router",
+    "react-loadable",
+    "preload",
+    "fetch"
+  ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kellyrmilligan/react-router-fetch.git"
+    "url": "https://github.com/papigers/react-router-preload-fetch"
   },
   "scripts": {
     "build": "npm-run-all -l clean standard babel",
@@ -21,7 +27,7 @@
     "test:watch": "npm run test -- --watch",
     "test:coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
-  "author": "Kelly Milligan",
+  "author": "Gershon Papiashvili",
   "license": "MIT",
   "jest": {
     "roots": [
@@ -78,6 +84,7 @@
     "npm-run-all": "^4.0.1",
     "onchange": "^3.0.2",
     "react": "^15.6.1",
+    "react-loadable": "^5.4.0",
     "react-router": "^4.2.0",
     "react-router-config": "^1.0.0-beta.4",
     "rimraf": "^2.5.4",
